@@ -1,6 +1,6 @@
 
 
-You need to install the following python packages to run SteParSyn (e.g. using pip):
+You need to install the following python packages to run Sun-Par-Syn (e.g. using pip):
 
 numpy
 scipy
@@ -20,7 +20,7 @@ The repository contains the following programs:
 	- SteParSyn.py:  the main code
 	- convsyn.py:    convolution code
 	- readstats.py:  reads the Markov chains
-	- runone.sh:  it calls SteParSyn.py
+	- runone.sh:  it calls Sun-Par-Syn.py
 	- runall.sh:  it calls runone.sh 
 	- readone.sh: it calls readstats.py 
 	- readall.sh: it calls readone.sh 
@@ -28,7 +28,7 @@ The repository contains the following programs:
 	  
 To install the code: clone the repo, install the dependencies, create missing dirs ... :
 
-	$  git clone https://github.com/hmtabernero/SteParSyn 
+	$  git clone https://github.com/suhassangangire/Sun-Par-Syn.git
 	$  pip3 install --user numpy scipy matplotlib astropy extinction emcee tqdm celerite george pygtc
 	$  cd SteParSyn
 	$  mkdir eSPECTRA BINOUT PLOTS GRIDS
@@ -79,8 +79,6 @@ Add also this line to readall.sh
 
 
 I will write a more complete manual in the near future. 
-
-Finally, please cite the SteParSyn paper if you use it in your reasearch, you can find it here: https://ui.adsabs.harvard.edu/abs/2022A%26A...657A..66T/abstract
 
 Thank You.
 
